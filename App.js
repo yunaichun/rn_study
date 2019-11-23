@@ -15,7 +15,7 @@ import { createAppContainer } from 'react-navigation';
 
 
 /* 1、脚手架生成的初始页面 */
-// import Index from './lib/demo/cliInit/index';
+// import Index from './lib/demo/initinalApp.js/index';
 /* 2、flex 布局 */
 import Index from './lib/demo/flex/index';
 

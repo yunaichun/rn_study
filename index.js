@@ -27,8 +27,13 @@ const AppContainer = createAppContainer(AppSwitchNavigator);
 AppRegistry.registerComponent(appName, () => AppContainer);
 */
 
-/* 四、高性能列表组件 */
+/* 四、高性能列表组件 
 import { AppStackNavigator } from './lib/demo/list/StackNavigator/index';
 const AppContainer = createAppContainer(AppStackNavigator);
 AppRegistry.registerComponent(appName, () => AppContainer);
+*/
 
+/* 五、项目 */
+import { AppSwitchNavigator } from './lib/src/routers/index';
+const AppContainer = createAppContainer(AppSwitchNavigator);
+AppRegistry.registerComponent(appName, () => AppContainer);

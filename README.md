@@ -20,7 +20,9 @@
 - [React Native 导航器 - createSwitchNavigator](https://www.devio.org/2019/01/21/createSwitchNavigator/)
 
 ##### 高性能列表组件
-- [React Native 导航器 - FlatList](https://www.devio.org/2019/05/19/flatlist/)
+- [React Native 高性能列表组件 - FlatList](https://www.devio.org/2019/05/19/flatlist/)
+- [React Native 高性能列表组件 - SwipeablFlatList](https://medium.com/@rutvikbhatt9/how-to-use-swipeableflatlist-new-react-native-experimental-component-cb792b1c7b0a)，不过在 0.60 版本已经移除
+- [React Native 高性能列表组件 - SectionList](https://facebook.github.io/react-native/docs/sectionlist)
 
 ##### 视频教程
 - [React Native 视频教程](https://coding.imooc.com/class/304.html)

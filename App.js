@@ -5,35 +5,36 @@ import { createAppContainer } from 'react-navigation';
 import { Provider } from 'react-redux';
 import store from './lib/src/store';
 
-// == 一、flex 布局
-// import Index from './lib/demo/flex/index';
+// == demo - flex 布局
+// import Index from './lib/demo/flex';
 // const AppContainer = () => <Index/>;
 
-// == 二、引入stack、top、bottom导航路由
-// import { AppStackNavigator } from './lib/demo/navigator/createStackNavigator/index';
+// == demo - fetch 网络请求
+import Index from './lib/demo/fetch';
+const AppContainer = () => <Index/>;
+
+// == demo - 引入 stack、top、bottom 导航路由
+// import { AppStackNavigator } from './lib/demo/navigator/createStackNavigator';
 // const AppContainer = createAppContainer(AppStackNavigator);
 
-// == 三、引入switch导航路由 
-// import { AppSwitchNavigator } from './lib/demo/navigator/createSwitchNavigator/index';
+// == demo - 引入 switch 导航路由 
+// import { AppSwitchNavigator } from './lib/demo/navigator/createSwitchNavigator';
 // const AppContainer = createAppContainer(AppSwitchNavigator);
 
-// == 四、高性能列表组件 
-// import { AppStackNavigator } from './lib/demo/list/StackNavigator/index';
+// == demo - 高性能列表组件 
+// import { AppStackNavigator } from './lib/demo/list/StackNavigator';
 // const AppContainer = createAppContainer(AppStackNavigator);
 
-// == 五、当前项目
-import { AppWithNavigationState } from './lib/src/routers/index';
-const AppContainer = createAppContainer(AppWithNavigationState);
+// == 当前项目
+// import { AppWithNavigationState } from './lib/src/routers';
+// const AppContainer = createAppContainer(AppWithNavigationState);
 
 const App = () => {
   return (
-    <Provider
-    store={store}
-    >
-      <AppContainer/>
+    <Provider store={store}>
+      <AppContainer />
     </Provider>
   );
 };
 
 export default App;
-

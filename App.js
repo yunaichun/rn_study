@@ -14,7 +14,11 @@ import store from './lib/src/store';
 // const AppContainer = () => <Index/>;
 
 // == demo - AsyncStorage 数据存储
-import Index from './lib/demo/AsyncStorage';
+// import Index from './lib/demo/AsyncStorage';
+// const AppContainer = () => <Index/>;
+
+// == demo - 离线缓存框架
+import Index from './lib/demo/offlineCaching';
 const AppContainer = () => <Index/>;
 
 // == demo - 引入 stack、top、bottom 导航路由

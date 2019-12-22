@@ -28,6 +28,9 @@
 - [React Native 高性能列表组件 - SwipeablFlatList](https://medium.com/@rutvikbhatt9/how-to-use-swipeableflatlist-new-react-native-experimental-component-cb792b1c7b0a)，不过在 0.60 版本已经移除
 - [React Native 高性能列表组件 - SectionList](https://facebook.github.io/react-native/docs/sectionlist)
 
+##### 离线缓存策略
+
+- [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 - [React Native 缓存 - AsyncStorage](https://www.devio.org/2016/09/05/React-Native%E4%B9%8BAsyncStorage%E5%AD%98%E5%82%A8key%E7%AE%A1%E7%90%86%E5%B0%8F%E6%8A%80%E5%B7%A7/)
 
 ##### 视频教程
@@ -37,22 +40,33 @@
 ### 项目结构
 
 ```
-├── index.js                                       入口文件
+├── App.js                                         入口文件
 ├── lib
     ├── demo                                       学习demo
-       ├── flex
-       ├── initinalApp.js
+       ├── AsyncStorage                            本地缓存             
+       ├── fetch                                   接口请求
+       ├── flex                                    Flex布局
+       ├── initinalApp.js                          初始化项目App.js文件
        ├── list
        │   ├── FlatList                            高性能列表组件
        │   ├── SectionList                         高性能列表组件
        │   └── StackNavigator
        └── navigator
-           ├── createBottomTabNavigator            底部导航
-           ├── createDrawerNavigator               抽屉导航
-           ├── createMaterialTopTabNavigator       顶部导航
-           ├── createStackNavigator                路由跳转
-           ├── createSwitchNavigator               无法返回导航
-           └── pages
+       │   ├── createBottomTabNavigator            底部导航
+       │   ├── createDrawerNavigator               抽屉导航
+       │   ├── createMaterialTopTabNavigator       顶部导航
+       │   ├── createStackNavigator                路由跳转
+       │   ├── createSwitchNavigator               无法返回导航
+       │   └── pages
+       └── offlineCaching                          离线缓存策略
+    ├── src                                        当前项目
+       ├── actions                                 redux actions         
+       ├── components                              页面组件
+       ├── config                                  环境配置
+       ├── reducers                                redux reducers         
+       ├── routers                                 react-navigation 导航配置
+       └── service                                 接口请求
+       └── store                                   redux store
 ```
 
 ### 注意事项

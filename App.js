@@ -18,14 +18,14 @@ import store from './lib/src/store';
 // const AppContainer = () => <Index/>;
 
 // == demo - 离线缓存框架
-import Index from './lib/demo/offlineCaching';
-const AppContainer = () => <Index/>;
+// import Index from './lib/demo/offlineCaching';
+// const AppContainer = () => <Index/>;
 
-// == demo - 引入 stack、top、bottom 导航路由
+// == demo - stack、top、bottom 导航路由
 // import { AppStackNavigator } from './lib/demo/navigator/createStackNavigator';
 // const AppContainer = createAppContainer(AppStackNavigator);
 
-// == demo - 引入 switch 导航路由 
+// == demo - switch 导航路由 
 // import { AppSwitchNavigator } from './lib/demo/navigator/createSwitchNavigator';
 // const AppContainer = createAppContainer(AppSwitchNavigator);
 
@@ -34,8 +34,8 @@ const AppContainer = () => <Index/>;
 // const AppContainer = createAppContainer(AppStackNavigator);
 
 // == 当前项目
-// import { AppWithNavigationState } from './lib/src/routers';
-// const AppContainer = createAppContainer(AppWithNavigationState);
+import { AppWithNavigationState } from './lib/src/routers';
+const AppContainer = createAppContainer(AppWithNavigationState);
 
 const App = () => {
   return (

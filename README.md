@@ -72,3 +72,4 @@
 ### 注意事项
 
 - `react-native link react-native-vector-icons` 出错，[参考官方地址](https://medium.com/@vimniky/how-to-use-vector-icons-in-your-react-native-project-8212ac6a8f06)
+- react-native-webview 出错，[参考官方地址](https://github.com/react-native-community/react-native-webview/issues/851)

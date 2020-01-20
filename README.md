@@ -93,8 +93,6 @@ $ npm run ios
 
 ### 注意事项
 
-以下 npm 包需要手动添加到 xcode 项目中
-
 - `react-native link react-native-vector-icons` 出错，[参考地址](https://medium.com/@vimniky/how-to-use-vector-icons-in-your-react-native-project-8212ac6a8f06)
 - `react-native link react-native-webview` 出错，[参考地址](https://www.cnblogs.com/allencelee/p/11218678.html)
-- 因为 react-native-vector-icons 是手动 link的，所以如果需要安装其他需要 react-native link 的 npm 包【如 react-native-webview】，均需要卸载 react-native-vector-icons 包后，重新 pod install
+- 因为 react-native-vector-icons 是手动 link 的，所以如果需要安装其他需要自动 link 的 npm 包【如 react-native-webview】，均需要卸载 react-native-vector-icons 包后，重新 pod install

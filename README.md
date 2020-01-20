@@ -69,7 +69,22 @@
        └── store                                   redux store
 ```
 
+### 项目启动
+
+```
+
+// == 安装依赖
+$ npm install
+
+// == 依赖原生的 npm 包处理
+$ react-native link react-native-gesture-handler
+$ react-native link react-native-vector-icons [出错的话看注意事项]
+
+// == 运行
+$ npm run ios
+```
 ### 注意事项
 
 - `react-native link react-native-vector-icons` 出错，[参考官方地址](https://medium.com/@vimniky/how-to-use-vector-icons-in-your-react-native-project-8212ac6a8f06)
+- `React/RCTBridgeModule.h` file not found 
 - react-native-webview 出错，[参考地址](https://juejin.im/post/5c062c8ef265da61273d27c8)

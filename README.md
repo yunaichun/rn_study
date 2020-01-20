@@ -72,17 +72,24 @@
 ### 项目启动
 
 ```
-
-// == 安装依赖
+// == 安装 npm 依赖
 $ npm install
 
-// == 依赖原生的 npm 包处理
-$ react-native link react-native-gesture-handler
-$ react-native link react-native-vector-icons [出错的话看注意事项]
+// == 卸载 react-native-vector-icons
+$ npm uninstall react-native-vector-icons --save
+
+// 安装 pod 依赖
+$ xcode -> rn_study -> build phases -> link binary with library -> 删除 library
+$ cd ios
+$ pod install
+
+// == 重新安装 react-native-vector-icons
+$ npm install react-native-vector-icons --save
 
 // == 运行
 $ npm run ios
 ```
+
 ### 注意事项
 
 - `react-native link react-native-vector-icons` 出错，[参考官方地址](https://medium.com/@vimniky/how-to-use-vector-icons-in-your-react-native-project-8212ac6a8f06)

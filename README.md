@@ -60,13 +60,15 @@
        │   └── pages
        └── offlineCaching                          离线缓存策略
     ├── src                                        当前项目
-       ├── actions                                 redux actions         
+       ├── actions                                 redux actions  
+       ├── common                                  公用组件       
        ├── components                              页面组件
        ├── config                                  环境配置
        ├── reducers                                redux reducers         
        ├── routers                                 react-navigation 导航配置
-       └── service                                 接口请求
-       └── store                                   redux store
+       ├── service                                 接口请求
+       ├── store                                   redux store
+       └── util                                    通用方法
 ```
 
 ### 项目启动
@@ -79,11 +81,10 @@ $ npm install
 $ npm uninstall react-native-vector-icons --save
 
 // 安装 pod 依赖
-$ xcode -> rn_study -> build phases -> link binary with library -> 删除 library
 $ cd ios
 $ pod install
 
-// == 重新安装 react-native-vector-icons
+// == 重新安装 react-native-vector-icons 【因为此项目已经手动 link 了，所以不需要再 link 了】
 $ npm install react-native-vector-icons --save
 
 // == 运行
@@ -92,6 +93,6 @@ $ npm run ios
 
 ### 注意事项
 
-- `react-native link react-native-vector-icons` 出错，[参考官方地址](https://medium.com/@vimniky/how-to-use-vector-icons-in-your-react-native-project-8212ac6a8f06)
+- `react-native link react-native-vector-icons` 出错，[参考地址](https://medium.com/@vimniky/how-to-use-vector-icons-in-your-react-native-project-8212ac6a8f06)
 - `React/RCTBridgeModule.h` file not found 
 - react-native-webview 出错，[参考地址](https://juejin.im/post/5c062c8ef265da61273d27c8)

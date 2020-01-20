@@ -84,7 +84,7 @@ $ npm uninstall react-native-vector-icons --save
 $ cd ios
 $ pod install
 
-// == 重新安装 react-native-vector-icons 【因为此项目已经手动 link 了，所以不需要再 link 了】
+// == 重新安装 react-native-vector-icons
 $ npm install react-native-vector-icons --save
 
 // == 运行
@@ -93,6 +93,8 @@ $ npm run ios
 
 ### 注意事项
 
+以下 npm 包需要手动添加到 xcode 项目中
+
 - `react-native link react-native-vector-icons` 出错，[参考地址](https://medium.com/@vimniky/how-to-use-vector-icons-in-your-react-native-project-8212ac6a8f06)
-- `React/RCTBridgeModule.h` file not found 
-- react-native-webview 出错，[参考地址](https://juejin.im/post/5c062c8ef265da61273d27c8)
+- `react-native link react-native-webview` 出错，[参考地址](https://www.cnblogs.com/allencelee/p/11218678.html)
+- 因为 react-native-vector-icons 是手动 link的，所以如果需要安装其他需要 react-native link 的 npm 包【如 react-native-webview】，均需要卸载 react-native-vector-icons 包后，重新 pod install

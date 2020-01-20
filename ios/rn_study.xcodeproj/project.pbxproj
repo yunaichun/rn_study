@@ -10,6 +10,7 @@
 		00E356F31AD99517003FC87E /* rn_studyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* rn_studyTests.m */; };
 		01F2311D5BB2EB9CFC5A39A1 /* libPods-rn_studyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3441BB1A9268870FDEBC390 /* libPods-rn_studyTests.a */; };
 		060A95B86D3E486185DD5CEF /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9C314F7AF9A4654AFFDF75E /* FontAwesome5_Regular.ttf */; };
+		116052682081391DBDB912C6 /* libPods-rn_study.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BFC3DD29D1794AB07C7DB6D /* libPods-rn_study.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -28,7 +29,6 @@
 		92D6E9EED6CF45568B21E64A /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46FB035F55234AEBB5CA1569 /* MaterialCommunityIcons.ttf */; };
 		992FA77CD4C9C29089C942F9 /* libPods-rn_study-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8EE53C0CB778D2095886B44 /* libPods-rn_study-tvOSTests.a */; };
 		9C0C81815F3466655A97187F /* libPods-rn_study-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 073B61FDA23C664BCD38F4DA /* libPods-rn_study-tvOS.a */; };
-		B78A4675F525F8A093C35B1F /* libPods-rn_study.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BFC3DD29D1794AB07C7DB6D /* libPods-rn_study.a */; };
 		B8DDA9A109A6414989EE7040 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74CDC9C534D442BBAB5CA9B4 /* Octicons.ttf */; };
 		BD402DC5115D468C8D98F711 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B72DBACDAB434268994ABF29 /* MaterialIcons.ttf */; };
 		CDB85F08BF6A491797662388 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DF63C157F434A75A119EB0D /* FontAwesome5_Solid.ttf */; };
@@ -131,7 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B78A4675F525F8A093C35B1F /* libPods-rn_study.a in Frameworks */,
+				116052682081391DBDB912C6 /* libPods-rn_study.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,7 +382,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 940;
+				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -888,6 +888,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -941,6 +942,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;

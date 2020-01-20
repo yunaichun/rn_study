@@ -5,6 +5,7 @@
 
 ##### 官网
 
+- [React 新特性介绍](https://github.com/reactjs/rfcs/blob/master/text)
 - [React Native 官网](http://facebook.github.io/react-native/docs/getting-started.html)
 - [React Native 中文网](https://reactnative.cn/docs/0.47/getting-started.html#content)
 

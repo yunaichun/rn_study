@@ -6,42 +6,43 @@
       "checked": true
     },
     {
-      "path": "unknown",
-      "name": "Unknown",
+      "path": "C++",
+      "name": "C++",
+      "short_name": "C++",
       "checked": true
     },
     {
       "path": "Koa",
       "name": "Koa",
       "short_name": "Koa",
-      "checked": false
+      "checked": true
     },
     {
       "path": "Express",
       "name": "Express",
-      "checked": false
+      "checked": true
     },
     {
       "path": "React",
       "name": "React",
       "short_name": "React",
-      "checked": false
+      "checked": true
     },
     {
       "path": "React Native",
       "name": "React Native",
       "short_name": "React Native",
-      "checked": false
+      "checked": true
     },
     {
       "path": "Flutter",
       "name": "Flutter",
-      "checked": false
+      "checked": true
     },
     {
       "path": "Vue",
       "name": "Vue",
-      "checked": false
+      "checked": true
     },
     {
       "path": "Javascript",

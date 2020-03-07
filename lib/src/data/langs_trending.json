@@ -1,11 +1,5 @@
 [
     {
-      "path": "C++",
-      "name": "C++",
-      "short_name": "C++",
-      "checked": true
-    },
-    {
       "path": "Vue",
       "name": "Vue",
       "checked": true

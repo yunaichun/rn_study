@@ -65,9 +65,10 @@
        ├── common                                  公用组件       
        ├── components                              页面组件
        ├── config                                  环境配置
+       ├── data                                    静态数据
        ├── reducers                                redux reducers         
        ├── routers                                 react-navigation 导航配置
-       ├── service                                 接口请求
+       ├── service                                 本地缓存和请求
        ├── store                                   redux store
        └── util                                    通用方法
 ```

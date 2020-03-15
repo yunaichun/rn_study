@@ -19,8 +19,24 @@
       "icon": "ios-laptop",
       "items": [
         {
+          "title": "个人博客",
+          "url": "http://jiapenghui.com"
+        },
+        {
+          "title": "CSDN",
+          "url": "http://blog.csdn.net/fengyuzhengfan"
+        },
+        {
+          "title": "简书",
+          "url": "http://www.jianshu.com/users/ca3943a4172a/latest_articles"
+        },
+        {
           "title": "GitHub",
-          "url": "https://github.com/yunaichun"
+          "url": "https://github.com/crazycodeboy"
+        },
+        {
+          "title": "慕课网",
+          "url": "http://www.imooc.com/u/4951150"
         }
       ]
     },
@@ -29,14 +45,28 @@
       "icon": "ios-contacts",
       "items": {
         "QQ": {
-          "title": "Wechat",
-          "account": "1044173619"
+          "title": "QQ",
+          "account": "1586866509"
         },
         "Email": {
           "title": "Email",
-          "account": "naichunyu@aliyun.com"
+          "account": "crazycodeboy@gmail.com"
         }
       }
+    },
+    "QQ": {
+      "name": "技术交流群",
+      "icon": "ios-chatbubbles",
+      "items": [
+        {
+          "title": "移动开发者技术分享群",
+          "account": "335939197"
+        },
+        {
+          "title": "React Native学习交流群",
+          "account": "165774887"
+        }
+      ]
     }
   },
   "info": {
@@ -45,8 +75,8 @@
     "currentRepoUrl": "https://api.github.com/repos/crazycodeboy/GitHubPopular"
   },
   "author": {
-    "name": "Yu",
-    "description": "专注于移动端开发，分享知识，共享快乐。",
+    "name": "CrazyCodeBoy",
+    "description": "专注于移动开发，分享知识，共享快乐。",
     "avatar": "http://avatar.csdn.net/1/1/E/1_fengyuzhengfan.jpg",
     "backgroundImg": "https://www.devio.org/io/GitHubPopular/img/for_githubpopular_about_me.jpg",
     "url": "https://www.devio.org/"

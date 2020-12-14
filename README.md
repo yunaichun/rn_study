@@ -29,17 +29,20 @@
 - [React Native 高性能列表组件 - SwipeablFlatList](https://medium.com/@rutvikbhatt9/how-to-use-swipeableflatlist-new-react-native-experimental-component-cb792b1c7b0a)，不过在 0.60 版本已经移除
 - [React Native 高性能列表组件 - SectionList](https://facebook.github.io/react-native/docs/sectionlist)
 
-##### 混合开发
-
-- [React Native 与 Android 混合开发](https://www.devio.org/2018/08/26/React-Native-Hybrid-Android/)
-- [React Native 打包 Android](https://www.devio.org/2019/11/08/react-native-Release-APP-Signature-Package-APK/)
-- [React Native 与 iOS 混合开发](https://www.devio.org/2018/08/26/React-Native-Hybrid-iOS/)
-- [React Native 打包 iOS](https://www.devio.org/2019/11/08/React-Native-releases-packaged-iOS-apps-for-apps/)
-
 ##### 离线缓存策略
 
 - [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 - [React Native 缓存 - AsyncStorage](https://www.devio.org/2016/09/05/React-Native%E4%B9%8BAsyncStorage%E5%AD%98%E5%82%A8key%E7%AE%A1%E7%90%86%E5%B0%8F%E6%8A%80%E5%B7%A7/)
+
+##### 混合开发
+
+- [React Native 与 Android 混合开发](https://www.devio.org/2018/08/26/React-Native-Hybrid-Android/)
+- [React Native 与 iOS 混合开发](https://www.devio.org/2018/08/26/React-Native-Hybrid-iOS/)
+
+##### 打包和上架
+- [React Native 打包 Android](https://www.devio.org/2019/11/08/react-native-Release-APP-Signature-Package-APK/)
+- [React Native 打包 iOS](https://www.devio.org/2019/11/08/React-Native-releases-packaged-iOS-apps-for-apps/)
+- [iOS App上架流程](https://www.jianshu.com/p/72ec3c1c4c2d)
 
 ##### 视频教程
 

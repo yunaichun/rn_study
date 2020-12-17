@@ -65,6 +65,10 @@ $ npm run ios
 - `react-native link react-native-webview` 出错，[参考地址](https://www.cnblogs.com/allencelee/p/11218678.html)
 - 因为 react-native-vector-icons 是手动 link 的，所以如果需要安装其他需要自动 link 的 npm 包【如 react-native-webview】，均需要卸载 react-native-vector-icons 包后，重新 pod install
 
+## 学习笔记
+
+- RN: https://www.answera.top/hybird/rn
+
 ## 参考资料
 
 #### 官网

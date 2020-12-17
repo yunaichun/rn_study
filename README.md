@@ -4,7 +4,7 @@
 
 可参考学习笔记: https://www.answera.top/hybird/rn/
 
-## 项目结构
+## 目录结构
 
 ```
 ├── App.js                                         入口文件

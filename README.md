@@ -2,8 +2,6 @@
 
 此项目是学习 React Native 的项目，记录学习的点滴，方便以后忘记可以从学习轨迹中迅速上手。
 
-可参考学习笔记: https://www.answera.top/hybird/rn/
-
 ## 目录结构
 
 ```

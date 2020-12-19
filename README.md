@@ -6,25 +6,25 @@
 
 ```
 ├── App.js                                         入口文件
-├── lib
+└── lib
     ├── demo                                       学习demo
        ├── AsyncStorage                            本地缓存             
        ├── fetch                                   接口请求
        ├── flex                                    Flex布局
        ├── initinalApp.js                          初始化项目App.js文件
        ├── list
-       │   ├── FlatList                            高性能列表组件
-       │   ├── SectionList                         高性能列表组件
-       │   └── StackNavigator
-       └── navigator
-       │   ├── createBottomTabNavigator            底部导航
-       │   ├── createDrawerNavigator               抽屉导航
-       │   ├── createMaterialTopTabNavigator       顶部导航
-       │   ├── createStackNavigator                路由跳转
-       │   ├── createSwitchNavigator               无法返回导航
-       │   └── pages
+           ├── FlatList                            高性能列表组件
+           ├── SectionList                         高性能列表组件
+           └── StackNavigator
+       ├── navigator
+           ├── createBottomTabNavigator            底部导航
+           ├── createDrawerNavigator               抽屉导航
+           ├── createMaterialTopTabNavigator       顶部导航
+           ├── createStackNavigator                路由跳转
+           ├── createSwitchNavigator               无法返回导航
+           └── pages
        └── offlineCaching                          离线缓存策略
-    ├── src                                        当前项目
+    └── src                                        当前项目
        ├── actions                                 redux actions  
        ├── common                                  公用组件       
        ├── components                              页面组件
